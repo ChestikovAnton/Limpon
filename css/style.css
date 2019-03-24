@@ -168,13 +168,13 @@ h2 span {
 }
 
 .page-clients h2,
-.page-angels h2{
+.page-team h2{
     font-size: 40px;
     color: #fff;
 }
 
 .page-clients h2 span,
-.page-angels h2 span{
+.page-team h2 span{
     font-size: 18px;
     color: #85c8ff;
 }
@@ -193,16 +193,16 @@ h2 span {
     display: block;
 }
 
-.page-angels {
+.page-team {
     background-color: #1a88e1;
 }
 
-.page-angels .author {
+.page-team .author {
     font-size: 26px;
     color: #192b59;
 }
 
-.page-angels .author span {
+.page-team .author span {
     font-size: 14px;
     font-weight: 800;
     color: #1a88e1;
