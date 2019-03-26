@@ -8,6 +8,7 @@ body {
 h1 {
     font-size: 80px;
     font-weight: 600;
+    letter-spacing: -0.03em;
     color: #192b59;
 }
 
@@ -27,9 +28,31 @@ h2 span {
     display: block;
 }
 
-.link-btn {
-	color: #fff;
-	text-decoration: none;
+.btn-primary {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #1085e4;
+    padding: 20px 39px 21px 41px;
+    border: 1px solid #1085e4;
+    border-radius: 30px;
+    letter-spacing: 0.2em;
+    margin: 0;
+}
+
+.btn-secondary {
+    color: #7e8bae;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #cbdbe8;
+    padding: 20px 39px 21px 41px;
+    border: 1px solid #cbdbe8;
+    border-radius: 30px;
+    letter-spacing: 0.2em;
 }
 
 .nav {
@@ -44,8 +67,16 @@ h2 span {
 
 .btn-free {
     font-weight: 400;
-    color: #ffffff;
-    background-color: #1085e4;
+    letter-spacing: 0.2em;
+    padding: 20px 51px;
+}
+
+.btn-group {
+    font-size: 0;
+}
+
+.btn-group a + a {
+    margin-left: 20px;
 }
 
 .page-company {
@@ -111,10 +142,8 @@ h2 span {
 
 .page-subscribe button {
     font-size: 14px;
-    font-weight: 700;
-    line-height: 28px;
-    color: #fff;
-    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 16px;
 }
 
 .page-software dt {
@@ -150,6 +179,11 @@ h2 span {
     line-height: 60px;
     color: #c4d2dd;
     text-transform: uppercase;
+}
+
+.page-etid a {
+    padding-left: 64px;
+    padding-right: 62px;
 }
 
 .page-preview {
@@ -197,6 +231,11 @@ h2 span {
     display: block;
 }
 
+.box-price-item.active a {
+    padding-left: 64px;
+    padding-right: 62px;
+}
+
 .page-team {
     background-color: #1a88e1;
 }
@@ -222,6 +261,12 @@ h2 span {
 .page-trail textarea {
    font-size: 14px;
    color: #8995b3;
+}
+
+.page-trail button {
+    padding-left: 75px;
+    padding-right: 55px;
+    letter-spacing: 0.17em;
 }
 
 .page-footer {
