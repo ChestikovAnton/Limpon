@@ -42,6 +42,11 @@ h2 span {
     margin: 0;
 }
 
+.btn-primary:hover {
+    color: #1085e4;
+    background-color: #fff;
+}
+
 .btn-secondary {
     color: #7e8bae;
     font-size: 12px;
@@ -53,6 +58,10 @@ h2 span {
     border: 1px solid #cbdbe8;
     border-radius: 30px;
     letter-spacing: 0.2em;
+}
+
+.btn-secondary:hover {
+    background-color: #fff;
 }
 
 .nav {
@@ -199,6 +208,13 @@ h2 span {
 .page-preview h2 span,
 .page-plans h2 span {
     font-size: 18px;
+}
+
+.btn-info {
+    color: #8085b1;
+    background-color: transparent;
+    border: 2px solid #dce1e5;
+    padding: 19px 60px 20px 63px;
 }
 
 .page-clients {
