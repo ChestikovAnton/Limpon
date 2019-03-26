@@ -5,10 +5,6 @@ body {
     color: #7581a1;
 }
 
-a {
-    text-decoration: none;
-}
-
 h1 {
     font-size: 80px;
     font-weight: 600;
@@ -31,6 +27,11 @@ h2 span {
     display: block;
 }
 
+.link-btn {
+	color: #fff;
+	text-decoration: none;
+}
+
 .nav {
     font-size: 12px;
     font-weight: 700;
@@ -43,7 +44,7 @@ h2 span {
 
 .btn-free {
     font-weight: 400;
-    color: #fff;
+    color: #ffffff;
     background-color: #1085e4;
 }
 
