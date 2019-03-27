@@ -5,11 +5,18 @@ body {
     color: #7581a1;
 }
 
+a {
+        text-decoration: none;
+}
+
 h1 {
     font-size: 80px;
     font-weight: 600;
     letter-spacing: -0.03em;
     color: #192b59;
+    max-width:540px;
+    line-height: 90px;
+    margin-bottom: 64px;
 }
 
 h2 {
@@ -32,7 +39,6 @@ h2 span {
     color: #fff;
     font-size: 12px;
     font-weight: 700;
-    text-decoration: none;
     text-transform: uppercase;
     background-color: #1085e4;
     padding: 20px 39px 21px 41px;
@@ -51,7 +57,6 @@ h2 span {
     color: #7e8bae;
     font-size: 12px;
     font-weight: 700;
-    text-decoration: none;
     text-transform: uppercase;
     background-color: #cbdbe8;
     padding: 20px 39px 21px 41px;
@@ -64,14 +69,27 @@ h2 span {
     background-color: #fff;
 }
 
+.wrap {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
 .nav {
     font-size: 12px;
     font-weight: 700;
-    color: #6e7ea9;
     text-transform: uppercase;
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav>li {
+    padding: 0 20px;
+}
+
+.nav-item {
+    color: #6e7ea9;
 }
 
 .btn-free {
@@ -166,20 +184,28 @@ h2 span {
     background-color: #edf6ff;
 }
 
-.page-stat li {
+.list-stat {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.list-stat li {
     font-size: 12px;
     font-weight: 700;
     line-height: 30px;
     color: #1085e4;
     text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.2em;
 }
 
-.page-stat li span {
+.list-stat li span {
     font-size: 60px;
-    font-weight: 700;
-    line-height: 30px;
     color: #bacbdc;
     display: block;
+    margin-bottom: 10px;
+    letter-spacing: -0.03em;
 }
 
 .page-app .app-available {
