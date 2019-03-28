@@ -1,3 +1,5 @@
+/* -------------------- General styles ------------------ */
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -99,6 +101,30 @@ h3 {
     margin: 0 auto;
 }
 
+/* -------------------- Blocks styles ------------------ */
+
+.page-header {
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 54px;
+    padding-bottom: 337px;
+}
+
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 303px;
+}
+
+.logo {
+    display: block;
+    width: 181px;
+    height: 49px;
+    background-image: url(../img/header-logo.png);
+}
+
 .nav {
     font-size: 12px;
     font-weight: 700;
@@ -110,11 +136,12 @@ h3 {
 }
 
 .nav>li {
-    padding: 0 20px;
+    padding: 0 19px;
 }
 
 .nav-item {
     color: #6e7ea9;
+    letter-spacing: 0.2em;
 }
 
 .btn-free {
