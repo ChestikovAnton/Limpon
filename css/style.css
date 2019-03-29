@@ -160,6 +160,52 @@ h3 {
 
 .page-company {
     background-color: #1e8ce6;
+    background-image: url(../img/company-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 103px 0 102px 0;
+}
+
+.list-company {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.list-company-item {
+    background-image: url(../img/company-logo-sprite.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+.company-one {
+    background-position: 0 0;
+    flex-basis: 198px;
+    height: 58px
+}
+
+.company-two {
+    background-position: 0 -70px;
+    flex-basis: 200px;
+    height: 69px
+}
+
+.company-three {
+    background-position: 0 -140px;
+    flex-basis: 201px;
+    height: 47px
+}
+
+.company-four {
+    background-position: 0 -210px;
+    flex-basis: 200px;
+    height: 69px
 }
 
 .grid h2 {
