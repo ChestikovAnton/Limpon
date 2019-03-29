@@ -170,7 +170,7 @@ h3 {
     width: 895px;
     height: 738px;
     position: absolute;
-    right: -409px;
+    right: -390px;
     top: -215px;
 }
 
@@ -272,27 +272,56 @@ h3 {
 .box-subscribe {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.page-subscribe h2 {
+.signup {
+    padding: 75px 0 121px 0;
+    flex-basis: 540px;
+}
+
+.page-subscribe .title-h2 {
     color: #fff;
+    margin-bottom: 26px;
 }
 
-.page-subscribe h2 span {
+.page-subscribe .title-h2 span {
     color: #00bffe;
+    font-size: 14px;
+    margin-bottom: 19px;
 }
 
 .page-subscribe p {
     color: #dfe8ff;
+    max-width: 410px;
+    font-size: 18px;
+    letter-spacing: 0;
+    margin-bottom: 35px;
 }
 
-.page-subscribe input {
+.field-subscribe {
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 70px;
+    padding: 8px 8px 8px 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.field-subscribe input {
+    font-size: 14px;
+    line-height: 2;
+    color: #b1c3ee;
+    background-color: transparent;
+    border-color: transparent;
+    flex-basis: 300px;
+}
+.field-subscribe input::placeholder {
     font-size: 14px;
     line-height: 2;
     color: #b1c3ee;
 }
 
-.page-subscribe button {
+.field-subscribe button {
     font-size: 14px;
     padding-top: 15px;
     padding-bottom: 16px;
