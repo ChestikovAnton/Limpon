@@ -101,7 +101,7 @@ h3 {
     margin: 0 auto;
 }
 
-/* -------------------- Blocks styles ------------------ */
+/* -------------------- Blocks .page-header ------------------ */
 
 .page-header {
     background-image: url(../img/header-bg.png);
@@ -109,6 +109,7 @@ h3 {
     background-size: cover;
     padding-top: 54px;
     padding-bottom: 337px;
+    position: relative;
 }
 
 .box-header {
@@ -116,6 +117,10 @@ h3 {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 303px;
+}
+
+.box-after-header {
+    position: relative;
 }
 
 .logo {
@@ -157,6 +162,19 @@ h3 {
 .btn-group a + a {
     margin-left: 20px;
 }
+
+.header-screen {
+    display: block;
+    background-image: url(../img/header-screen.png);
+    background-repeat: no-repeat;
+    width: 895px;
+    height: 738px;
+    position: absolute;
+    right: -409px;
+    top: -215px;
+}
+
+/* -------------------- Block .page-company ------------------ */
 
 .page-company {
     background-color: #1e8ce6;
