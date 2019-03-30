@@ -73,6 +73,7 @@ h3 {
     border-radius: 30px;
     letter-spacing: 0.2em;
     margin: 0;
+    transition: 0.3s;
 }
 
 .btn-primary:hover {
@@ -90,6 +91,7 @@ h3 {
     border: 1px solid #cbdbe8;
     border-radius: 30px;
     letter-spacing: 0.2em;
+    transition: 0.3s;
 }
 
 .btn-secondary:hover {
@@ -302,9 +304,9 @@ h3 {
     letter-spacing: 0;
 }
 
-.grid-item-3 .grid-item-wrap {
-    /* max-width: 280px; */
-}
+/* .grid-item-3 .grid-item-wrap {
+    max-width: 280px;
+} */
 
 .grid-item-3 p {
     font-weight: 600;
@@ -696,6 +698,7 @@ h3 {
     background-color: transparent;
     border: 2px solid #dce1e5;
     padding: 19px 60px 20px 63px;
+    transition: 0.3s;
 }
 
 .btn-info:hover {
