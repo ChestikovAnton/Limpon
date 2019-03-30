@@ -198,7 +198,6 @@ h3 {
 .list-company-item {
     background-image: url(../img/company-logo-sprite.png);
     background-repeat: no-repeat;
-    background-size: cover;
     display: block;
 }
 
@@ -228,22 +227,145 @@ h3 {
 
 /* -------------------- Block .page-grid ------------------ */
 
-.grid h2 {
-    font-size: 40px;
-    font-weight: 700;
-    color: #192b59;
+.grid {
+    display: grid;
+    grid-template-areas: 
+    "a b c"
+    "d b c"
+    "d e f"
+    "g e f"
+    "g h h";
+    gap: 30px;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 120px 0 10px 0;
 }
 
-.grid h2 span{
+.grid-title {
+    grid-area: a;
+}
+
+.grid-item-1 {
+    grid-area: b;
+}
+
+.grid-item-2 {
+    grid-area: c;
+}
+
+.grid-item-3 {
+    grid-area: d;
+}
+
+.grid-item-4 {
+    grid-area: e;
+}
+
+.grid-item-5 {
+    grid-area: f;
+}
+
+.grid-item-6 {
+    grid-area: g;
+}
+
+.grid-text {
+    grid-area: h;
+}
+
+.grid .title-h2-40{
+    font-weight: 700;
+}
+
+.grid .title-h2-40 span{
     font-size: 14px;
-    font-weight: 800;
-    color: #1085e4;
+}
+
+.grid-title-wrap {
+    max-width: 260px;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(180, 181, 181, 0.2);
+    max-width: 350px;
+    padding: 38px 0 63px 0;
+}
+
+.grid-item-wrap {
+    max-width: 260px;
+    margin: 0 auto;
+}
+
+.grid-item p {
+    letter-spacing: 0;
+}
+
+.grid-item-3 .grid-item-wrap {
+    /* max-width: 280px; */
+}
+
+.grid-item-3 p {
+    font-weight: 600;
+}
+
+.box-icon {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.grid-icon {
+    background-image: url(../img/features-sprite.png);
+    background-repeat: no-repeat;
+}
+
+.grid-icon-1 {
+    background-position: -105px 0;
+    width: 73px;
+    height: 79px
+}
+
+.grid-icon-2 {
+    background-position: -210px 0;
+    width: 89px;
+    height: 85px
+}
+
+.grid-icon-3 {
+    background-position: 0 0;
+    width: 79px;
+    height: 82px
+}
+
+.grid-icon-4 {
+    background-position: -105px -92px;
+    width: 85px;
+    height: 90px
+}
+
+.grid-icon-5 {
+    background-position: -210px -92px;
+    width: 100px;
+    height: 87px
+}
+
+.grid-icon-6 {
+    background-position: 0 -92px;
+    width: 103px;
+    height: 92px
 }
 
 .grid-item h3 {
-    font-size: 20px;
-    font-weight: 600;
     color: #192b59;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    font-weight: 600; 
+    margin-bottom: 15px;
 }
 
 .grid-item a {
@@ -252,12 +374,29 @@ h3 {
     color: #1085e4;
 }
 
-.grid-item .author {
+.grid-text{
+    text-align: left;
+}
+
+.grid-text-wrap {
+    max-width: 730px;
+    margin: 0 auto;
+}
+
+.grid-text p {
+    margin: 0;
+}
+
+.grid-text .text {
+    margin-bottom: 10px;
+}
+
+.grid-text .author {
     font-size: 14px;
     color: #1085e4;
 }
 
-.grid-item .author span {
+.grid-text .author span {
     font-size: 16px;
     font-weight: 700;
     color: #192b59;
