@@ -109,7 +109,7 @@ h3 {
     background-image: url(../img/header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 54px;
+    padding-top: 47px;
     padding-bottom: 337px;
     position: relative;
 }
@@ -242,7 +242,7 @@ h3 {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     max-width: 1110px;
     margin: 0 auto;
-    padding: 120px 0 80px 0;
+    padding: 120px 0 87px 0;
 }
 
 .grid-title {
@@ -537,8 +537,11 @@ h3 {
 
 .page-software-list::-webkit-scrollbar {
     width: 4px;
-    background-color: #f3f6ff;
     border-radius: 4px;
+}
+
+.page-software-list::-webkit-scrollbar-track-piece {
+    background-color: #f3f6ff;
 }
 
 .page-software-list::-webkit-scrollbar-thumb {
