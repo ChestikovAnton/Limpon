@@ -513,7 +513,7 @@ h3 {
     padding-left: 50px;
 }
 
-.page-software-icon {
+.settings-icon {
     display: block;
     background-image: url(../img/customize-icon.png);
     background-repeat: no-repeat;
@@ -666,6 +666,28 @@ h3 {
 
 .page-analytics {
     background-image: url(../img/analytics-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-analytics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 119px 0 139px 0;
+}
+
+.flex-analytics>div {
+    flex-basis: 55%;
+}
+
+.page-analytics .title-h2 {
+    margin: 9px 0 26px 0;
+}
+
+.page-analytics-text {
+    margin-bottom: 50px;
+
 }
 
 /* -------------------- Block .page-etid ------------------ */
