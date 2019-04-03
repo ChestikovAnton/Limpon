@@ -687,14 +687,38 @@ h3 {
 
 .page-analytics-text {
     margin-bottom: 50px;
-
 }
 
 /* -------------------- Block .page-etid ------------------ */
 
+.page-etid {
+    background-image: url(../img/etid-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .page-etid a {
     padding-left: 64px;
     padding-right: 62px;
+}
+
+.flex-etid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0 139px 68px;
+}
+
+.flex-etid>div {
+    flex-basis: 55%;
+}
+
+.page-etid .title-h2 {
+    margin: 9px 0 26px 0;
+}
+
+.page-etid-text {
+    margin-bottom: 50px;
 }
 
 /* -------------------- Block .page-prewiev ------------------ */
