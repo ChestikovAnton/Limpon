@@ -107,6 +107,7 @@ h3 {
 
 .page-header {
     background-image: url(../img/header-bg.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 47px;
@@ -181,6 +182,7 @@ h3 {
 .page-company {
     background-color: #1e8ce6;
     background-image: url(../img/company-bg.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 103px 0 102px 0;
@@ -485,6 +487,7 @@ h3 {
 
 .page-software {
     background-image: url(../img/grabsoft-bg.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 113px 0 160px 0;
@@ -668,6 +671,7 @@ h3 {
     background-image: url(../img/analytics-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .flex-analytics {
@@ -695,6 +699,7 @@ h3 {
     background-image: url(../img/etid-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .page-etid a {
