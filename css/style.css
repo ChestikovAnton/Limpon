@@ -818,7 +818,7 @@ h3 {
 /* -------------------- Block .page-plans ------------------ */
 
 .page-plans {
-    padding: 97px 0 71px 0;
+    padding: 97px 0 104px 0;
     text-align: center;
 }
 
@@ -938,30 +938,72 @@ h3 {
 /* -------------------- Block .page-team ------------------ */
 
 .page-team {
-    background-color: #1a88e1;
+    text-align: center;
+    background-image: url(../img/team-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 116px 0 120px 0;
 }
 
-.page-team h2 span{
+.page-team .title-h2-40{
+    color: #fff;
+}
+
+.page-team .title-h2-40 span{
     font-size: 18px;
     color: #85c8ff;
 }
 
-.page-team h2{
-    font-size: 40px;
-    color: #fff;
+.box-team {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 138px;
 }
 
-.page-team .author {
+ .box-team-item {
+    background-color: #fff;
+    flex-basis: 31.5%;
+    box-shadow: 0 8px 16px rgba(180, 181, 181, 0.2);
+    position: relative;
+    padding: 184px 0 40px 0;
+ }
+
+ .box-team-item .avatar {
+    position: absolute;
+    top: -86px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.box-team-item .author {
     font-size: 26px;
     color: #192b59;
+    margin-bottom: 19px;
 }
 
-.page-team .author span {
+.box-team-item .author span {
     font-size: 14px;
     font-weight: 800;
     color: #1a88e1;
     text-transform: uppercase;
     display: block;
+    letter-spacing: 0.2em;
+}
+
+.box-team-item .btn-more {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background-image: url(../img/team-plusbtn.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+
+.box-team-item .btn-more {
+    outline: none;
 }
 
 /* -------------------- Block .page-trail ------------------ */
