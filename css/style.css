@@ -979,6 +979,8 @@ h3 {
 .box-team-item .author {
     font-size: 26px;
     color: #192b59;
+    font-weight: 600;
+    letter-spacing: -0.03em;
     margin-bottom: 19px;
 }
 
