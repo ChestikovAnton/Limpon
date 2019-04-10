@@ -314,17 +314,35 @@
                 <div class="box-team-item">
                     <img class="avatar" src="img/team-ricardo.png" alt="Teammate photo">
                     <p class="author"><span>founder</span>Ricardo T. Obrien</p>
-                    <button class="btn-more" type="button"></button>
+                    <button class="btn-team btn-more btn-ricardo" type="button"><span></span></button>
+                    <ul class="social-team social-ricardo" style="display: none">
+                        <li><a href="#" class="btn-team btn-fb" target="_blank"><span></span></a></li>
+                        <li><a href="#" class="btn-team btn-tw" target="_blank"><span></span></a></li>
+                        <li><a href="#" class="btn-team btn-be" target="_blank"><span></span></a></li>
+                        <li><a href="#" class="btn-team btn-web" target="_blank"><span></span></a></li>
+                    </ul>
                 </div>
                 <div class="box-team-item">
                     <img class="avatar" src="img/team-alberto.png" alt="Teammate photo">
                     <p class="author"><span>ceo</span>Alberto Del Rio</p>
-                    <button class="btn-more" type="button"></button>
+                    <button class="btn-team btn-more btn-alberto" type="button"><span></span></button>
+                    <ul class="social-team social-alberto" style="display: none">
+                        <li><a href="#" class="btn-team btn-fb" target="_blank"><span></span></a></li>
+                        <li><a href="#" class="btn-team btn-tw" target="_blank"><span></span></a></li>
+                        <li><a href="#" class="btn-team btn-be" target="_blank"><span></span></a></li>
+                        <li><a href="#" class="btn-team btn-web" target="_blank"><span></span></a></li>
+                    </ul>
                 </div>
                 <div class="box-team-item">
                     <img class="avatar" src="img/team-thomas.png" alt="Teammate photo">
                     <p class="author"><span>designer</span>Thomas Alva Adison</p>
-                    <button class="btn-more" type="button"></button>
+                    <button class="btn-team btn-more btn-thomas" type="button"><span></span></button>
+                    <ul class="social-team social-thomas" style="display: none">
+                        <li><a href="#" class="btn-team btn-fb" target="_blank"><span></span></a></li>
+                        <li><a href="#" class="btn-team btn-tw" target="_blank"><span></span></a></li>
+                        <li><a href="#" class="btn-team btn-be" target="_blank"><span></span></a></li>
+                        <li><a href="#" class="btn-team btn-web" target="_blank"><span></span></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -355,5 +373,22 @@
             </ul>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $(".btn-ricardo").click(function(){
+                $(".btn-ricardo").hide();
+                $(".social-ricardo").fadeIn("fast");
+            });
+            $(".btn-alberto").click(function () {
+                $(".btn-alberto").hide();
+                $(".social-alberto").fadeIn("fast");
+            });
+            $(".btn-thomas").click(function () {
+                $(".btn-thomas").hide();
+                $(".social-thomas").fadeIn("fast");
+            });
+        });
+    </script>
 </body>
 </html>
