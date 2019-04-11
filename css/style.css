@@ -571,6 +571,7 @@ h3 {
 .page-stat {
     background-color: #edf6ff;
     padding: 117px 0 79px 0;
+    position: relative;
 }
 
 .page-stat .title-h2 {
@@ -602,6 +603,30 @@ h3 {
     display: block;
     margin-bottom: 10px;
     letter-spacing: -0.03em;
+}
+
+.object-circle {
+    display: block;
+    position: absolute;
+    background-image: url(../img/funfacts-circle.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 469px;
+    height: 641px;
+    left: 0px;
+    bottom: -251px;
+}
+
+.object-rhombus {
+    display: block;
+    position: absolute;
+    background-image: url(../img/funfacts-romb.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 603px;
+    height: 788px;
+    right: 0;
+    top: -217px;
 }
 
 /* -------------------- Block .page-app ------------------ */
