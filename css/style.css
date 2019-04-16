@@ -195,6 +195,7 @@ h3 {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     max-width: 1110px;
@@ -204,32 +205,53 @@ h3 {
 }
 
 .list-company-item {
+    flex-basis: 25%;
+}
+
+.list-company-item span {
     background-image: url(../img/company-logo-sprite.png);
     background-repeat: no-repeat;
     display: block;
+    margin: 0 auto;
 }
 
 .company-one {
+    flex-basis: 198px
+}
+
+.company-one span{
     background-position: 0 0;
-    flex-basis: 198px;
+    width: 198px;
     height: 58px
 }
 
 .company-two {
+    flex-basis: 200px
+}
+
+.company-two span{
     background-position: 0 -70px;
-    flex-basis: 200px;
+    width: 200px;
     height: 69px
 }
 
 .company-three {
+    flex-basis: 201px
+}
+
+.company-three span{
     background-position: 0 -140px;
-    flex-basis: 201px;
+    width: 201px;
     height: 47px
 }
 
 .company-four {
+    flex-basis: 200px
+}
+
+.company-four span{
     background-position: 0 -210px;
-    flex-basis: 200px;
+    width: 200px;
     height: 69px
 }
 
@@ -780,6 +802,8 @@ color: rgba(0, 0, 0, 0.04);
 .screen {
     margin-top: 71px;
     margin-bottom: -7px;
+    width: 100%;
+    max-width: 1288px;
 }
 
 /* -------------------- Block .page-clients ------------------ */
@@ -1304,3 +1328,13 @@ color: rgba(0, 0, 0, 0.04);
 
 /* -------------------- MEDIA ------------------ */
 
+@media (max-width: 1050px) {
+    .list-company-item {
+        flex-basis: 50%;
+        margin-bottom: 50px;
+    }
+
+    .page-company {
+        padding: 103px 0 70px 0;
+    }
+}
