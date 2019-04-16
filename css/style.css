@@ -101,6 +101,8 @@ h3 {
 .wrap {
     max-width: 1110px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* -------------------- Blocks .page-header ------------------ */
@@ -197,6 +199,8 @@ h3 {
     align-items: center;
     max-width: 1110px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .list-company-item {
@@ -244,7 +248,7 @@ h3 {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     max-width: 1110px;
     margin: 0 auto;
-    padding: 120px 0 87px 0;
+    padding: 120px 15px 87px 15px;
 }
 
 .grid-title {
@@ -1145,6 +1149,8 @@ color: rgba(0, 0, 0, 0.04);
     align-items: center;
     max-width: 1110px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .flex-form > img {
@@ -1295,3 +1301,6 @@ color: rgba(0, 0, 0, 0.04);
 .social-list .link-f {
     background-position: -150px 0px;
 }
+
+/* -------------------- MEDIA ------------------ */
+
