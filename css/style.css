@@ -437,6 +437,7 @@ h3 {
 
 .box-subscribe {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -1330,7 +1331,7 @@ color: rgba(0, 0, 0, 0.04);
     }
 
     .page-company {
-        padding: 103px 0 70px 0;
+        padding: 50px 0 20px 0;
     }
 
     .grid {
@@ -1353,5 +1354,32 @@ color: rgba(0, 0, 0, 0.04);
 
     .grid-title-wrap .title-h2-40 span {
         margin-bottom: 10px;
+    }
+
+    .signup {
+        flex-basis: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .box-subscribe {
+        flex-direction: column-reverse;
+    }
+
+    .box-subscribe-text {
+        margin: 0 auto;
+    }
+
+    .box-subscribe img {
+        margin: 0 auto;
+        max-width: 170px;
+    }
+
+    .page-subscribe .box-subscribe-text {
+        margin-bottom: 30px;
+    }
+
+    .page-subscribe {
+        padding: 50px 0 28px 0;
     }
 }
