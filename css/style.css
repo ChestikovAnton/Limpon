@@ -273,7 +273,7 @@ h3 {
     padding: 120px 15px 87px 15px;
 }
 
-.grid-title {
+.grid-title-wrap {
     grid-area: a;
 }
 
@@ -321,7 +321,6 @@ h3 {
 .grid-item {
     text-align: center;
     box-shadow: 0 8px 16px rgba(180, 181, 181, 0.2);
-    max-width: 350px;
     padding: 38px 0 63px 0;
 }
 
@@ -333,10 +332,6 @@ h3 {
 .grid-item p {
     letter-spacing: 0;
 }
-
-/* .grid-item-3 .grid-item-wrap {
-    max-width: 280px;
-} */
 
 .grid-item-3 p {
     font-weight: 600;
@@ -1336,5 +1331,27 @@ color: rgba(0, 0, 0, 0.04);
 
     .page-company {
         padding: 103px 0 70px 0;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-areas: 
+        "a a"
+        "b c"
+        "d e"
+        "f g"
+        "h h";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: none;
+    }
+
+    .grid-title-wrap {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .grid-title-wrap .title-h2-40 span {
+        margin-bottom: 10px;
     }
 }
