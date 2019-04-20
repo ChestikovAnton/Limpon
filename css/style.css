@@ -679,6 +679,7 @@ h3 {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 42px;
     padding: 0;
 }
@@ -698,6 +699,7 @@ h3 {
     display: block;
     margin-bottom: 10px;
     letter-spacing: -0.03em;
+    line-height: 1;
 }
 
 .object-circle {
@@ -1534,6 +1536,13 @@ color: rgba(0, 0, 0, 0.04);
 
     .page-subscribe {
         padding: 50px 0 28px 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .list-stat li {
+        flex-basis: 34%;
+        margin-bottom: 30px;
     }
 }
 
