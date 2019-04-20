@@ -584,24 +584,26 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 113px 0 160px 0;
+    position: relative;
+}
+
+.page-software:before {
+    content: "";
+    display: block;
+    background-image: url(../img/laptop.png);
+    background-repeat: no-repeat;
+    width: 48%;
+    height: 760px;
+    background-size: contain;
+    background-position: 0 bottom;
+    position: absolute;
+    left: 0px;
+    top: 117px;
 }
 
 .page-software-flex {
     display: flex;
     justify-content: flex-end;
-    position: relative;
-}
-
-.page-software-flex:before {
-    content: "";
-    display: block;
-    background-image: url(../img/laptop.png);
-    background-repeat: no-repeat;
-    width: 931px;
-    height: 760px;
-    position: absolute;
-    left: -396px;
-    top: 4px;
 }
 
 .page-software-flex > div {
@@ -1450,7 +1452,28 @@ color: rgba(0, 0, 0, 0.04);
     }
 
     .page-header {
-        padding-bottom: 150px;
+        padding-bottom: 100px;
+    }
+
+    .page-software {
+        background-image: none;
+        padding: 60px 0;
+    }
+
+    .page-software:before {
+        display: none;
+    }
+
+    .page-software-flex {
+        justify-content: center;
+    }
+
+    .page-software-flex > div {
+        flex-basis: 100%;
+    }
+
+    .page-software-list {
+        margin-right: 20px;
     }
 }
 
@@ -1520,6 +1543,14 @@ color: rgba(0, 0, 0, 0.04);
         margin-bottom: 30px;
     }
 
+    .box-header {
+        margin-bottom: 50px;
+    }
+
+    .page-header {
+        padding-bottom: 50px;
+    }
+
     .btn-group {
         display: flex;
         justify-content: center;
@@ -1535,5 +1566,11 @@ color: rgba(0, 0, 0, 0.04);
 
     .btn-group a + a {
         margin-left: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .list-company-item {
+        flex-basis: 100%;
     }
 }
